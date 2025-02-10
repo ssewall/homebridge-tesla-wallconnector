@@ -1,0 +1,22 @@
+{
+    "pluginAlias": "TeslaWallConnector",
+    "pluginType": "platform",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "title": "Wall Connector IP",
+          "type": "string",
+          "required": true,
+          "default": "192.168.111.111"
+        },
+        "pollInterval": {
+          "title": "Poll Interval",
+          "type": "number",
+          "description": "Interval in milliseconds between updates",
+          "default": 300000,
+          "required": false
+        }
+      }
+    }
+  }
